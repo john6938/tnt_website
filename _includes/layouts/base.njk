@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/assets/css/w3.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+  <link rel="stylesheet" href="/assets/css/custom.css">
+  <link rel="stylesheet" href="https://afeld.github.io/emoji-css/emoji.css">
+</head>
+<body>
+
+{% include "header.njk" %}
+
+<main class="w3-main w3-theme-l1">
+  <div class="w3-container">
+    {{ content | safe }}
+  </div>
+</main>
+
+{% include "footer.njk" %}
+
+<script src="/assets/js/main.js"></script>
+</body>
+</html>
