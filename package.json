@@ -1,0 +1,23 @@
+{
+  "name": "tntlab-eleventy",
+  "version": "1.0.0",
+  "description": "scalable site using 11ty",
+  "main": ".eleventy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/john6938/tnt_website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/john6938/tnt_website/issues"
+  },
+  "homepage": "https://github.com/john6938/tnt_website#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  }
+}
