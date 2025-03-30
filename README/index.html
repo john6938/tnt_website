@@ -1,2 +1,79 @@
-<h1>tnt_website</h1>
-<p>scalable site using 11ty</p>
+<h1>Text and Tools (TNT) Lab Website</h1>
+<p>Welcome to the open-source repository for the <strong>TNT Lab Website</strong>, developed using <a href="https://www.11ty.dev/">Eleventy (11ty)</a> and hosted on GitHub Pages. This site supports our lab's public presence and course offerings while serving as a real-world project for student contributors studying computer science and web development.</p>
+<hr>
+<h2>📚 Project Purpose</h2>
+<ul>
+<li>Showcase the <strong>TNT Lab</strong>: profile, publications, presentations, projects, and grants</li>
+<li>Host interactive <strong>course content</strong>: for university-wide and lab-specific courses</li>
+<li>Use a <strong>static site generator</strong> for flexibility, speed, and version control</li>
+<li>Provide a structured, collaborative learning environment for student developers</li>
+</ul>
+<hr>
+<h2>🚀 Features</h2>
+<ul>
+<li>Built with <a href="https://www.11ty.dev/">Eleventy</a>: a fast, modern static site generator</li>
+<li>Styled with <a href="https://www.w3schools.com/w3css/">W3.CSS</a> and custom CSS (currently)</li>
+<li>Fully responsive: works on mobile and desktop</li>
+<li>Supports audio, video, and interactive JavaScript elements</li>
+<li>Organized content: TNT Lab section + University-wide and Lab courses</li>
+</ul>
+<hr>
+<h2>📚 For Contributors</h2>
+<h3>How to Get Started:</h3>
+<ol>
+<li><strong>Fork or clone</strong> the repository</li>
+<li>Run locally:<pre><code class="language-bash">npm install
+npx eleventy --serve
+</code></pre>
+</li>
+<li>Create or select an <a href="../../issues">issue</a> to work on</li>
+<li>Create a new branch: <code>feature/my-task</code></li>
+<li>Make your changes, commit, and push</li>
+<li>Open a pull request referencing the issue</li>
+</ol>
+<h3>Workflow &amp; Guide:</h3>
+<p>See <a href="./tnt_github_workflow_guide.md">Contributor Guide</a> for full details on branching, issues, pull requests, and coding tips.</p>
+<hr>
+<h2>📒 Directory Structure</h2>
+<pre><code>/
+├── _includes/        # Layouts and reusable components
+├── _data/            # Shared data (navigation, metadata, etc.)
+├── assets/           # CSS, JS, images, media
+├── tnt-lab/          # Pages about the lab
+├── courses/          # University-wide and lab-specific course units
+├── index.md          # Homepage
+├── .eleventy.js      # Eleventy configuration
+├── package.json      # Project metadata and dependencies
+</code></pre>
+<hr>
+<h2>📅 Project Status</h2>
+<p>The site is currently live at:
+<strong><a href="https://john6938.github.io/tnt_website/">https://john6938.github.io/tnt_website/</a></strong></p>
+<p>We are actively adding:</p>
+<ul>
+<li>New course content and interactive features</li>
+<li>Rubric shortcodes for repeatable instructional blocks</li>
+<li>A reusable layout system for units and lab pages</li>
+</ul>
+<hr>
+<h2>✨ Want to Contribute?</h2>
+<p>We welcome contributors of all experience levels! Check out the <a href="../../issues">issues tab</a> or open a new issue if you'd like to:</p>
+<ul>
+<li>Add or fix content</li>
+<li>Improve layout, design, or responsiveness</li>
+<li>Suggest features or tools for student use</li>
+<li>Refactor or optimize code</li>
+</ul>
+<hr>
+<h2>🚜 Deployment</h2>
+<p>This site is automatically deployed via <strong>GitHub Actions</strong> to the <code>gh-pages</code> branch. All edits should be made in <code>main</code> via pull requests. The build process uses:</p>
+<ul>
+<li><code>npx eleventy</code> to generate static files</li>
+<li><code>peaceiris/actions-gh-pages@v3</code> to publish to GitHub Pages</li>
+</ul>
+<hr>
+<h2>💼 License</h2>
+<p>This project is licensed under the MIT License. See <a href="./LICENSE">LICENSE</a> for details.</p>
+<hr>
+<h2>🤝 Acknowledgements</h2>
+<p>This project is developed and maintained by <a href="https://u-aizu.ac.jp/~jblake/">John Blake</a> and contributors from the University of Aizu.</p>
